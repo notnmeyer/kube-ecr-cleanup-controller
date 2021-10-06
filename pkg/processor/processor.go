@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/danielfm/kube-ecr-cleanup-controller/pkg/aws"
-	"github.com/danielfm/kube-ecr-cleanup-controller/pkg/core"
-	"github.com/danielfm/kube-ecr-cleanup-controller/pkg/kubernetes"
-	"github.com/danielfm/kube-ecr-cleanup-controller/pkg/utils"
 	"github.com/golang/glog"
+	"github.com/notnmeyer/kube-ecr-cleanup-controller/pkg/aws"
+	"github.com/notnmeyer/kube-ecr-cleanup-controller/pkg/core"
+	"github.com/notnmeyer/kube-ecr-cleanup-controller/pkg/kubernetes"
+	"github.com/notnmeyer/kube-ecr-cleanup-controller/pkg/utils"
 )
 
 // ImageCleanupLoop runs the image cleanup repeatedly at an interval.
