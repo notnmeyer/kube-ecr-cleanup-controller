@@ -8,10 +8,10 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/danielfm/kube-ecr-cleanup-controller/pkg/core"
-	"github.com/danielfm/kube-ecr-cleanup-controller/pkg/processor"
-	"github.com/danielfm/kube-ecr-cleanup-controller/pkg/utils"
 	"github.com/golang/glog"
+	"github.com/notnmeyer/kube-ecr-cleanup-controller/pkg/core"
+	"github.com/notnmeyer/kube-ecr-cleanup-controller/pkg/processor"
+	"github.com/notnmeyer/kube-ecr-cleanup-controller/pkg/utils"
 )
 
 var task *core.CleanupTask

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/aws/aws-sdk-go/service/ecr"
-	"github.com/danielfm/kube-ecr-cleanup-controller/pkg/core"
+	"github.com/notnmeyer/kube-ecr-cleanup-controller/pkg/core"
 	apiv1 "k8s.io/api/core/v1"
 )
 
