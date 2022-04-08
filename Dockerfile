@@ -1,4 +1,4 @@
-FROM centurylink/ca-certs
+FROM docker.io/centurylink/ca-certs
 LABEL org.opencontainers.image.authors="Daniel Martins <daniel.martins@descomplica.com.br>"
 
 COPY ./bin/kube-ecr-cleanup-controller /kube-ecr-cleanup-controller
